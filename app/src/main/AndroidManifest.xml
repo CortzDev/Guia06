@@ -24,9 +24,8 @@
         <activity
             android:name=".UI.DetailBudget"
             android:exported="false" />
-        <activity
-            android:name=".UI.registerActivity"
-            android:exported="false" />
+        <activity android:name=".UI.registerActivity" />
+
         <activity
             android:name=".UI.MainActivity"
             android:exported="false" />

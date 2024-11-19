@@ -45,7 +45,7 @@ public class loginActivity extends AppCompatActivity {
         txtInputEmail = findViewById(R.id.inputEmail);
         txtInputPassword = findViewById(R.id.inputPassword);
         btnLogin = findViewById(R.id.btnlogin);
-        lblCrearCuenta = findViewById(R.id.txtNoTieneCuenta);
+        lblCrearCuenta = findViewById(R.id.txtRegistrese);
         btnGoogle = findViewById(R.id.btnGoogle);
 
         lblCrearCuenta.setOnClickListener(view -> startActivity(new Intent(loginActivity.this, registerActivity.class)));
